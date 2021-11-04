@@ -6,4 +6,4 @@ let users = JSON.parse(arguments[0])
 console.log(users);
 
 
-//console.log(arguments);
+//console.log(arguments); 
