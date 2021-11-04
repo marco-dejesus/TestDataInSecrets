@@ -1,3 +1,3 @@
 let users = process.argv.slice(2);
 
-console.log(users);
+console.log(JSON.parse(users));
