@@ -1,3 +1,6 @@
-let users = process.argv.slice(2);
+let arguments = process.argv.slice(2);
 
-console.log(JSON.parse(users));
+let users = JSON.parse(arguments[0])
+
+
+console.log(users);
