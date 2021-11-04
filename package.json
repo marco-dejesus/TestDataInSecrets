@@ -4,7 +4,7 @@
   "description": "A Project to work with Github Secrets.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node argumentor.js"
   },
   "repository": {
     "type": "git",
