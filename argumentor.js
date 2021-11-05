@@ -3,9 +3,9 @@ let arguments = process.argv.slice(2);
 let users = JSON.parse(arguments[0])
 
 
-console.log(users);
+//console.log(users);
 
-console.log(users[0]["OUTesting1@email.com"]);
+//console.log(users[0]["OUTesting1@email.com"]);
 
 let mixedData = [
     {
@@ -27,7 +27,7 @@ let mixedData = [
 ]
 
 //console.log()
-console.log(mixedData)
+//console.log(mixedData)
 //console.log(Object.keys(mixedData[0]))
 
 
