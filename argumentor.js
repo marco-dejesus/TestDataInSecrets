@@ -5,6 +5,7 @@ let arguments = process.argv.slice(2);
 let argu = "{'user1': {'email': 'OUTesting1@email.com', 'password': '12$345'},'user2': {'email': 'OUTesting2@email.com','password': '12$345'},'user3': { 'email': 'OUTesting3@email.com','password': '12$345'},'user4': {  'email': 'OUTesting4@email.com','password': '12$345'}}"
 
 console.log(argu);
+console.loga(arguments);
 
 
 //console.log(users);    
