@@ -22,7 +22,7 @@ let mixedData = [
         'testData2' : 'testdata', 
         'testData3' : 'testdata',
         'testData4' : 'testdata',
-    },
+    }, 
     {
         'email': 'OUTesting3@email.com',
         'password': users[2]['OUTesting3@email.com'],
