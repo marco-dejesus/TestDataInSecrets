@@ -34,4 +34,4 @@ let mixedData = [
 //console.log(Object.keys(mixedData[0]))
 
 
-//console.log(arguments);   
+//console.log(arguments);    
