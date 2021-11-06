@@ -2,12 +2,30 @@ let arguments = process.argv.slice(2);
 
 //let users = JSON.parse(arguments[0])
 
-let argu = `{'user1': {'email': 'OUTesting1@email.com', 'password': '12$345'},'user2': {'email': 'OUTesting2@email.com','password': '12\$345'},'user3': { 'email': 'OUTesting3@email.com','password': '12\$345'},'user4': {  'email': 'OUTesting4@email.com','password': '12\$345'}}`
+//let argu = `{'user1': {'email': 'OUTesting1@email.com', 'password': '12$345'},'user2': {'email': 'OUTesting2@email.com','password': '12\$345'},'user3': { 'email': 'OUTesting3@email.com','password': '12\$345'},'user4': {  'email': 'OUTesting4@email.com','password': '12\$345'}}`
 
 
 //console.log(argu);
-console.log("Email: " + arguments[0].user1.email + " Password: " + arguments[0].user1.password);
 
+/*let jsonfied = JSON.parse(arguments[0])
+console.log(arguments)
+console.log("Email: " + jsonfied[0].user1.email + " Password: " + jsonfied[0].user1.password);
+*/
+/*
+let users = JSON.stringify(arguments[0])
+
+let usersJson = JSON.parse(arguments[0])
+console.log()
+console.log(" THIS IS THE WHOLE USERS LIST: "+ usersJson)
+*/
+console.log()
+
+//console.log(JSON.parse(JSON.stringify(arguments[0])))
+
+let newValue = JSON.parse(arguments[0]);
+
+console.log(newValue.user1.email)
+console.log(newValue.user1.password)
 
 //console.log(users);    
 
