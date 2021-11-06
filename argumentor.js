@@ -6,7 +6,7 @@ let argu = `{'user1': {'email': 'OUTesting1@email.com', 'password': '12$345'},'u
 
 
 //console.log(argu);
-console.log(arguments);
+console.log("Email: " + arguments[0].user1.email + " Password: " + arguments[0].user1.password);
 
 
 //console.log(users);    
