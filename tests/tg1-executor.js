@@ -1,4 +1,12 @@
-let arguments = process.argv.slice(2);
+const testData = require('../data/iteration-data')
+
+let args = process.argv.slice(2);
+
+let users = JSON.parse(args[1]);
+let iterationData = testData.getIterationData(users);
+
+console.log(iterationData);
+
 
 //let users = JSON.parse(arguments[0])
 
@@ -10,7 +18,7 @@ let arguments = process.argv.slice(2);
 /*let jsonfied = JSON.parse(arguments[0])
 console.log(arguments)
 console.log("Email: " + jsonfied[0].user1.email + " Password: " + jsonfied[0].user1.password);
-*/
+*/ 
 /*
 let users = JSON.stringify(arguments[0])
 
@@ -18,15 +26,15 @@ let usersJson = JSON.parse(arguments[0])
 console.log()
 console.log(" THIS IS THE WHOLE USERS LIST: "+ usersJson)
 */
-console.log()
+//console.log(args)
 
 //console.log(JSON.parse(JSON.stringify(arguments[0]))) 
-
-let newValue = JSON.parse(arguments[0]);
+/*
+let newValue = JSON.parse(args[0]);
 
 console.log(newValue.user1.email)
 console.log(newValue.user1.password)
-
+*/
 //console.log(users);    
 
 //console.log(users[0]['OUTesting1@email.com']);

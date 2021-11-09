@@ -4,7 +4,7 @@
   "description": "A Project to work with Github Secrets.",
   "main": "index.js",
   "scripts": {
-    "test": "node argumentor.js"
+    "test": "./scripts/newman-lib-execution.sh"
   },
   "repository": {
     "type": "git",
