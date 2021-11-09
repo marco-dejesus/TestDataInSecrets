@@ -29,5 +29,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: ./scripts/newman-lib-execution.sh -e Staging -d ${{ secrets.USER_CREDENTIALS }}
-    - run: node tests/tg1-executor.js -e Staging -d "${{ secrets.USER_CREDENTIALS }}"
+    - run: node tests/tg1-executor.js -e Staging -d '${{ secrets.USER_CREDENTIALS }}'
     - run: npm test -- -e Staging -d "${{ secrets.USER_CREDENTIALS }}"
