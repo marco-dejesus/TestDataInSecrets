@@ -28,6 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: ./scripts/newman-lib-execution.sh -e Staging -d ${{ secrets.USERCREDENTIALS }}
+    - run: ./scripts/newman-lib-execution.sh -e Staging -d ${{ secrets.USER_CREDENTIALS }}
     # - run: node tests/tg1-executor.js ${{ secrets.USERCREDENTIALS }}
     # - run: npm test -- -e Staging -d ${{ secrets.USERCREDENTIALS }}
