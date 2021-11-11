@@ -16,7 +16,7 @@ console.log(iterationData);
 //console.log(argu);
 
 /*let jsonfied = JSON.parse(arguments[0])  ∫
-console.log(arguments)
+console.log(arguments) 
 console.log("Email: " + jsonfied[0].user1.email + " Password: " + jsonfied[0].user1.password);
 */ 
 /*
